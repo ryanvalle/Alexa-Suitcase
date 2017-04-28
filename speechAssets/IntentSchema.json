@@ -1,0 +1,25 @@
+{
+  "intents": [
+    {
+      "intent": "AboutAppIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "days",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "HowMuchToPackIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

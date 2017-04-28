@@ -1,0 +1,18 @@
+{
+  "name": "Suitcase",
+  "version": "0.0.3",
+  "description": "Ask Alexa for helper with packing your suitcase when you travel.",
+  "readme": "Ask Alexa for helper with packing your suitcase when you travel.",
+  "repository": "my repository",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "npm run zip && npm run upload",
+    "upload": "aws lambda update-function-code --function-name 'suitcase' --zip-file fileb://../index.zip",
+    "zip": "zip -r ../index.zip . -x 'package.json' -x '*.git*' "
+  },
+  "author": "me",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7"
+  }
+}

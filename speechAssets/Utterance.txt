@@ -1,0 +1,7 @@
+AboutAppIntent about
+HowMuchToPackIntent how much should I pack for a {days} day trip
+HowMuchToPackIntent what should I bring if i am traveling for {days} days
+HowMuchToPackIntent what should i pack for a {days} day vacation
+AMAZON.HelpIntent help
+AMAZON.StopIntent stop
+AMAZON.CancelIntent cancel
